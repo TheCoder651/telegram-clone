@@ -1,0 +1,62 @@
+* {
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.container{
+    text-align: center;
+}
+h4,h5 {
+    font-size: 1.5rem;   
+
+}
+.select1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 250px;
+    height: 35px;
+    border: none;
+    background-color: rgb(236, 11, 11);
+    color: white;
+    border-radius: 0.5rem;
+}
+input {
+
+    position: absolute;
+    top: 44%;
+    left: 49.5%;
+    margin: 5px;
+    background-color: rgba(82, 225, 16, 0.66);
+    color: white;
+    width: 243px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.tasdiqlash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: pink;
+    color: white;
+    box-shadow: inset 500px 0 0 0 #f90606;
+    transition: ease-out 0.4s;
+}
+
+
+.tasdiqlash:hover{
+    box-shadow: inset 500px 0 0 0 #f9e506;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

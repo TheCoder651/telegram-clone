@@ -1,0 +1,155 @@
+
+/* input {
+    position: relative;
+    display: inline;
+   top: -300px;
+    width: 400px;
+} */
+/* #search{
+   position: absolute;
+   top: 45px;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+} */
+.table{
+    /* background-image: url("chatfon.jpg");
+    background-repeat: no-repeat; */
+    background-size: 100%;
+    position: absolute;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 40vw;
+    height: 100vh;
+}
+/* h1{
+    position: relative;
+    top: -400px;
+} */
+
+.div{
+   
+    
+    border-color: blue;
+}
+
+.ism{
+    /* border: 1px; */
+    position: absolute;
+    font-size: 25px;
+    top: -20px;
+    left: 130px;
+    /* width: 900px; */
+}
+.tr1{
+    /* width: 900px; */
+    height: 80px;
+    background-color: aqua;
+    z-index: 100px;
+    
+}
+.tr2{
+    background-image: url("chatfon2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+ .yozishuchun{
+
+    /* color: blue; */
+    /* border: 1px solid red; */
+    width: auto;
+
+}
+.menu{
+    background-image: url("./icon/menu.png");
+    position: absolute;
+    top: 50px;
+    
+    
+}
+.btn{
+    background-image: url("./icon/menu.png");
+    border: none;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 100%;
+    position: absolute;
+   top: 3px;
+    width: 55px;
+    height: 57px;
+}
+.online{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    color: green;
+}
+nav{
+    position: relative;
+    left: -200px;
+    width: 150px;
+    height: 100%;
+    border-right: 2px solid red;
+}
+.chat{
+    position: absolute;
+  
+    top: 900px;
+}
+.input2{
+    position: absolute;
+    /* width: 500px; */
+    height: 20px;
+    top: -10px;
+}
+/* .send1{
+    position: absolute;
+    top: 690px;
+    left: 375px;
+    width: 40px;
+    height: 40px;
+} */
+.zxc{
+    position: absolute;
+    background-image: url("send1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 880px;
+    left: 470px;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.yozish{
+    position: relative;
+    margin: 5px;
+    /* border: 1px solid red; */
+}
+img{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.clock {
+    position: absolute;
+    font-size: 1rem;
+    height: 150px;
+    top: 75px;
+    left: 600px;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fe1717db;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    z-index: 100000px; 
+   
+
+
+}

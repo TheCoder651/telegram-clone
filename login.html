@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <h3>Salom Telegramga xush kelibsiz</h3>
+  <p>Telefon raqamingizni yozing biz unga kod jo'natamiz</p>
+  <div class="vd" style="width: 100%; height: 100%;">
+  <!-- <video class="video" src="video1.mp4" style="width: 100%; height: 100%; position: absolute; z-index: -100px; "loop autoplay muted ></video></div> -->
+  
+     <select onchange="func()" class="select1"><br>
+      <option value="+998">UZB +998</option>
+      <option value="+7">RUS +7</option>
+      <option value="+1">USA +1</option>
+    </select><br>
+    <input type="text"><br>
+    
+    <a href="asosiy.html"><button class="tasdiqlash" style="text-decoration: none;">Davom etish</button></a><br>
+
+  <script src="script.js"></script>
+  <script>
+    function func(){
+    let input = document.querySelector("input")
+    let select = document.querySelector("select")
+    input.value = select.value
+}
+
+  </script>
+</body>
+</html>
